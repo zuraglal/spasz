@@ -1,0 +1,428 @@
+/*
+font-family: 'Oswald', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Crimson Text', serif;
+font-family: 'Croissant One', cursive;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Croissant+One&display=swap');
+
+h1{
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 3px 3px 3px #ababab;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size:30px;
+    padding-top: 3%;
+    margin: 0;
+}
+
+h2{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size:30px;
+    line-height: 150%;
+}
+
+h3{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    font-size:20px;
+    line-height: 150%;
+}
+
+h3 a{
+    color: white;
+    font-style: italic;
+}
+
+h3 a:hover{
+    color: black;
+}
+
+h4{
+    text-decoration: none;
+    text-align: left;
+    color: black;
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 18px; /*2vw;*/
+}
+
+h4 a{
+    color: black;
+    font-style: italic;
+}
+
+h5{
+    text-decoration: none;
+    text-align: left;
+    color: black;
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: 16px; /*1.8vw;*/
+    line-height: 150%;
+}
+
+h5 a{
+    color: black;
+    font-style: italic;
+}
+
+
+body {
+    background-color: rgb(231, 189, 98);
+    margin:0px;
+}
+
+header{
+    position:relative;
+}
+
+header img{
+    width:100%;
+}
+
+nav{
+    display:flex;
+    background-color: black;
+    margin-top:-10%;
+    padding-left: 21%;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 2.6%;
+    text-align: center;
+    font-size:2.6vw;
+    background-clip: text;
+	-webkit-background-clip: text;
+    color: transparent;
+    background-image: url('media/bg-gold.png');
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    color: #ffffff;
+}
+
+div.social-media{
+    position:absolute; 
+    display:flex;
+    flex-flow: row;
+    width:21%;
+    align-items:stretch;
+    justify-content: right;
+    top:47%;
+    left:75%;
+    margin-right:4%;
+}
+
+div.social-media img{
+    width:100%;
+}
+
+#fb:hover{
+    content: url("media/social/fb-no-bg.png")
+}
+
+#ig:hover{
+    content: url("media/social/ig-no-bg.png")
+}
+
+#yt:hover{
+    content: url("media/social/yt-no-bg.png")
+}
+
+#email:hover{
+    content: url("media/social/email-no-bg.png")
+}
+
+footer{
+    width:100%;
+    display:flex;
+    flex-flow: row;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+div.menu a:hover{
+    background-clip: text;
+	-webkit-background-clip: text;
+    color: transparent;
+    background-image: url('media/bg-gold.png');
+}
+
+footer img{
+    width:20%;
+}
+
+div.social-media-footer{
+    width:100%;
+    display:flex;
+}
+
+div.menu{
+    width:40%;
+    display:flex;
+    flex-flow:column;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 20px;/*1.5vw;*/
+    line-height: 150%;
+    padding:2%;
+}
+
+div.copyright{
+    display: flex;
+    flex-flow: column;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size:1.5vw;
+    line-height: 150%;
+}
+
+div.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+div.menu img{
+    width:80%;
+}
+
+div.subtitle{
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    justify-content: center;
+}
+
+div.left{
+    width:90%;
+    margin-left:10%;
+}
+
+div.center{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+div.center iframe{
+    width: 46vw;
+    height: 30.36vh;
+    padding:1.5%;
+}
+
+div.center figure{
+    margin: 0;
+    margin-right:1%;
+    margin-left:1%
+}
+
+div.center figure img{
+    width: 100%;
+}
+
+div.center figure figcaption {
+    color: black;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    font-weight:700;
+    text-align: center;
+    padding: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.container {
+    display: flex;
+    margin-top: 15px;
+}
+
+div.card {
+    width: 50%;
+    margin:2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    flex-grow: 1;
+}
+
+div.card + div.card {
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin-left: 1%;
+}
+  
+div.poster {
+    padding: 10px;
+}
+
+
+div.title {
+    /* background-image: url("media/bg-gold.png");
+    background-repeat: no-repeat; */
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+}
+
+div.title a{
+    text-decoration: none;
+}
+
+.gallery {
+    list-style: none;
+    padding: 0;
+    margin: 2%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20ch, 1fr));
+    gap: 1rem;
+}
+
+.gallery-musor {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+}
+  
+.gallery-musor img,
+.gallery img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    height: var(--gallery-height);
+    transform: scale(1) translate(0, 0);
+    transition: transform 1200ms ease-in;
+}
+
+.gallery-musor figure,
+.gallery figure {
+    --gallery-height: 15rem;
+    margin: 0;
+    height: var(--gallery-height);
+    background-color: hsl(200, 85%, 2%);
+    display: grid;
+    grid-template-areas: "card";
+    place-items: end;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+#landscape{
+    --gallery-aspect-ratio: 4/3;
+}
+
+#portrait{
+    --gallery-aspect-ratio: 3/4;
+}
+
+.gallery-musor figure > *,
+.gallery figure > * {
+    grid-area: card;
+}
+  
+.gallery-musor figcaption,
+.gallery figcaption {
+    transition: transform 800ms 400ms ease-in;
+    z-index: 1;
+    padding: 0.25em 0.5em;
+    border-radius: 4px 0 0 0;
+    background-image: url(media/bg-gold.png);
+    /*background-color: hsl(0 0% 100% / 87%);*/
+    font-family: 'Lora', serif;
+    font-size: 1.6vw;
+    font-weight:700;
+    font-style: italic;
+    color:black;
+}
+
+.gallery-musor figcaption a,
+.gallery figcaption a{
+    text-decoration: none;
+}
+
+.gallery-musor figure:focus,
+.gallery figure:focus {
+    outline: 2px solid white;
+    outline-offset: 2px;
+}
+
+.gallery-musor figure:hover figcaption,
+.gallery figure:hover figcaption {
+    transform: translateY(0);
+}
+
+.gallery-musor figure:hover figcaption,
+.gallery-musor figure:focus figcaption,
+.gallery figure:hover figcaption,
+.gallery figure:focus figcaption {
+  transform: translateY(0);
+}
+
+.gallery-musor figure:hover img,
+.gallery figure:hover img {
+    transform: scale(1.3) translate(-8%, -3%);
+}
+
+.gallery-musor figure:hover img,
+.gallery-musor figure:focus img,
+.gallery figure:hover img,
+.gallery figure:focus img {
+  transform: scale(1.3) translate(-8%, -3%);
+}
+   
+@supports (aspect-ratio: 1) {
+    .gallery-musor figure,
+    .gallery-musor img,
+    .gallery figure,
+    .gallery img {
+      aspect-ratio: var(--gallery-aspect-ratio);
+      /* Remove height to prevent distorting aspect-ratio */
+      height: auto;
+    }
+}
+
+@media (any-hover: hover) and (any-pointer: fine) {
+    .gallery-musor figcaption,
+    .gallery figcaption {
+      transform: translateY(100%);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .gallery-musor * ,
+    .gallery * {
+      transition-duration: 0ms !important;
+    }
+  
+    .gallery-musor img,
+    .gallery img {
+      transform: none !important;
+    }
+  
+    .gallery-musor figcaption,
+    .gallery figcaption {
+      transition-delay: 0ms;
+    }
+}
